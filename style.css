@@ -1,0 +1,41 @@
+body {margin:2px;}
+
+#decoration
+{
+   text-decoration: none;
+   color: black;
+}
+
+#frame
+{
+    margin: 40px;
+}
+#frame:hover{
+    box-shadow: 0px 0px 10px gray;
+}
+
+#edu_nev
+{
+    margin: 100px;
+}
+
+#dec{
+      text-decoration: none;
+      color: white;
+}
+
+#dec1{
+    text-decoration: none;
+    color: rgb(10, 0, 0);
+}
+
+#edu_nav
+{
+    margin-top: 12px;
+    padding: 79px;
+}
+#btn
+{
+    background-color: black;
+    border: 2px solid black;
+}
