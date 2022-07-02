@@ -5,7 +5,10 @@ body {margin:2px;}
    text-decoration: none;
    color: black;
 }
-
+#frame
+{
+   margin-left:5px;
+}   
 
 #frame:hover{
     box-shadow: 0px 0px 10px gray;
