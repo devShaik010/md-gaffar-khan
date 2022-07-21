@@ -7,23 +7,19 @@
 </head>
 <body>
   <!-------->
-      <ul class="nav " style="background-color: rgba(250,206,27,255);" id="nev">
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="index.html">Find URLS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#">Hospitals</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#">Banks</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#" tabindex="-1" >Education</a>
-      </ul>
+  <nav class="navbar bg-light shadow border border-success">
+    <div class="container-fluid">
+      <a class="navbar-brand">FIND URL</a>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit" onclick="alert('feature is note working')" >Search</button>
+      </form>
+    </div>
+  </nav>
       <br>
   <!-------->
 
-   <div class="card p-3">
+   <div class="card p-3 border border-success shadow">
     <h3><mark><u>Important URL !</u></mark></h3>
     <br>
     <p><strong>A </strong>URL (Uniform Resource Locator), more commonly known as a "web address," specifies the location of a resource (such as a web page) on the internet. <br>The URL also specifies how to retrieve that resource, also known as the "protocol," such as HTTP, HTTPS, FTP, etc.</p>
@@ -35,7 +31,7 @@
       <div class="row">
         <div class="col">
 
-          <div class="card shadow mb-5" style="width: 20rem;">
+          <div class="card shadow mb-5 border border-success  " style="width: 20rem;">
            <a href="index.html#education"><img src="images/education.png" class="card-img-top" alt="..."></a>
             <div class="card-body">
               <h4>Education</h4>
@@ -47,7 +43,7 @@
 
         <div class="col">
 
-          <div class="card shadow mb-5" style="width: 20rem;">
+          <div class="card shadow mb-5 border border-success " style="width: 20rem;">
           <a href="index.html#hospital"><img src="images/hospital.png" class="card-img-top" alt="..."></a>
             <div class="card-body">
               <h4>Hospital</h4>
@@ -59,7 +55,7 @@
         </div>
         <div class="col">
 
-          <div class="card shadow mb-5" style="width: 20rem;">
+          <div class="card shadow mb-5 border border-success " style="width: 20rem;">
            <a href="index.html#govt"><img src="images/governament.png" class="card-img-top"></a>
             <div class="card-body">
               <h4>Governament</h4>
@@ -73,7 +69,7 @@
         </div>
         <div class="col">
 
-          <div class="card shadow mb-5" style="width: 20rem;">
+          <div class="card shadow mb-5 border border-success " style="width: 20rem;">
             <a href="index.html#bank"><img src="images/bank.png" class="card-img-top"></a>
             <div class="card-body">
               <h4>Banks</h4>
@@ -82,7 +78,7 @@
           </div>
          </div>
         <div class="col">
-          <div id="test" class="card shadow mb-5" style="width: 20rem;">
+          <div id="test" class="card shadow mb-5 border border-success " style="width: 20rem;">
           <a href="index.html#all"><img src="images/all_links.png" class="card-img-top"></a>
             <div class="card-body">
               <h4>👇🏻 All links 👇🏻</h4>
@@ -140,10 +136,10 @@
       <li class="list-group-item">A list item</li>
       <li class="list-group-item">A list item</li>
     </ol>
-  </center>
+  </center>  
   <br>
   <br>
-  <center><h3> THE END</h3></center>
+  <center><h3 class="bg-success"> THE END</h3></center>
 <script src="bootstrap.min.js"></script>
 </body>
 </html>
